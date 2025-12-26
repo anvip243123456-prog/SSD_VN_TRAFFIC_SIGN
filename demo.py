@@ -132,4 +132,4 @@ for idx, file_name in enumerate(image_files):
     cv2.imwrite(out_path, img)
     print(f"Saved result: {out_path}")
 
-print(f"✅ Processed first {max_images} images!")
+print(f"Processed first {max_images} images!")
